@@ -3,12 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Moyo header</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Moyo header</h1>
+    <header class="header">
+      <img class="logo-image"
+      src="./images/logo.png"
+      alt="logo">
+      <nav class="shop-nav">
+        <ul class="shop-list">
+          <li class="shop-item">
+            <a class="shop-link is-active" href="#">apple</a>
+          </li>
+          <li class="shop-item">
+            <a class="shop-link" href="#">samsung</a>
+          </li>
+          <li class="shop-item">
+            <a class="shop-link" href="#">smartphones</a>
+          </li>
+          <li class="shop-item">
+            <a class="shop-link"
+            data-qa="hover"
+            href="#">laptops & computers</a>
+          </li>
+          <li class="shop-item">
+            <a class="shop-link" href="#">gadgets</a>
+          </li>
+          <li class="shop-item">
+            <a class="shop-link" href="#">tablets</a>
+          </li>
+          <li class="shop-item">
+            <a class="shop-link" href="#">photo</a>
+          </li>
+          <li class="shop-item">
+            <a class="shop-link" href="#">video</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
